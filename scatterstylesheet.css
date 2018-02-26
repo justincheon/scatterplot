@@ -1,0 +1,25 @@
+body {
+  font: 13px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+/*Add tooltip here*/
+.tooltip {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    background-color: lightsteelblue;
+    border-radius: 8px;    /*add rounded corners*/
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);    /*add shadow around tooltip*/
+    pointer-events:none;
+}
